@@ -1,0 +1,425 @@
+{
+  "schema_version": "solar-record-manifest/1.0.0",
+  "status": "real_unreviewed",
+  "preview_sha256": "1fe000fa0ec3265594cea394477fe9b22ef726ebcbe942d8d10d0917dd6f266d",
+  "quality_rule": {
+    "id": "vegetation-candidate/1.0.0",
+    "status": "proposed_unapproved",
+    "type": "0 only",
+    "modis_confidence_minimum": 30,
+    "viirs_confidence_classes": [
+      "nominal",
+      "high"
+    ],
+    "missing_fields": "indeterminate; not selected",
+    "deduplication": "none"
+  },
+  "record_count": 33413,
+  "entries": [
+    {
+      "path": "terra/2020-08-01.json",
+      "sha256": "8cf3c9842bad94d72b1fba4742f04ee9d7bcbe6611b32bd7ff37223b84946f8b",
+      "bytes": 48524,
+      "solar_date": "2020-08-01",
+      "platform": "Terra",
+      "record_count": 146,
+      "proposed_filter_count": 131
+    },
+    {
+      "path": "aqua/2020-08-01.json",
+      "sha256": "614e3f8bc5c8b6a9101f403e5bd0874c862f7700dccada3eb3218d866cd10f46",
+      "bytes": 50521,
+      "solar_date": "2020-08-01",
+      "platform": "Aqua",
+      "record_count": 152,
+      "proposed_filter_count": 142
+    },
+    {
+      "path": "snpp/2020-08-01.json",
+      "sha256": "57a0ea935fbc6f7a03adf381d609b8037a2eeee580422a7d42ef6cfca7c2c50d",
+      "bytes": 272742,
+      "solar_date": "2020-08-01",
+      "platform": "S-NPP",
+      "record_count": 816,
+      "proposed_filter_count": 691
+    },
+    {
+      "path": "terra/2020-08-02.json",
+      "sha256": "4d6a955f8789f27a08666f93e857ca276a5680bbb2d63891950db7bbb8bfb441",
+      "bytes": 12158,
+      "solar_date": "2020-08-02",
+      "platform": "Terra",
+      "record_count": 36,
+      "proposed_filter_count": 32
+    },
+    {
+      "path": "aqua/2020-08-02.json",
+      "sha256": "74a69c0b3dcf5c3d12df591e56d03b96cb09d59d2f9f96c5c173383c72652d49",
+      "bytes": 100237,
+      "solar_date": "2020-08-02",
+      "platform": "Aqua",
+      "record_count": 302,
+      "proposed_filter_count": 283
+    },
+    {
+      "path": "snpp/2020-08-02.json",
+      "sha256": "204606386a1bae4d5efd9554be05944eb61baf86077eb5973bf9f41fc69e6273",
+      "bytes": 475156,
+      "solar_date": "2020-08-02",
+      "platform": "S-NPP",
+      "record_count": 1425,
+      "proposed_filter_count": 1336
+    },
+    {
+      "path": "terra/2020-08-03.json",
+      "sha256": "711b61f993d774d20898754ff312651ebafb0901980e446db8094ce7af464c68",
+      "bytes": 82165,
+      "solar_date": "2020-08-03",
+      "platform": "Terra",
+      "record_count": 247,
+      "proposed_filter_count": 231
+    },
+    {
+      "path": "aqua/2020-08-03.json",
+      "sha256": "19da1276ae29cb7b4e130a821499faa3e2e5f982770c6595ead361d496bc58c7",
+      "bytes": 47729,
+      "solar_date": "2020-08-03",
+      "platform": "Aqua",
+      "record_count": 143,
+      "proposed_filter_count": 132
+    },
+    {
+      "path": "snpp/2020-08-03.json",
+      "sha256": "08294c58113c69a6d6de2186a674cba1d685bcd49a89f590f333ee1926d19859",
+      "bytes": 381733,
+      "solar_date": "2020-08-03",
+      "platform": "S-NPP",
+      "record_count": 1145,
+      "proposed_filter_count": 1066
+    },
+    {
+      "path": "terra/2020-08-04.json",
+      "sha256": "ca8a74f824da7ec83b3266166fab63c8047d1faf7cc3f553a461e6fb2236a672",
+      "bytes": 16490,
+      "solar_date": "2020-08-04",
+      "platform": "Terra",
+      "record_count": 49,
+      "proposed_filter_count": 46
+    },
+    {
+      "path": "aqua/2020-08-04.json",
+      "sha256": "64642bbfd08a53f0f53fced43a973fed09131400dbf0c0b20cfbb569b66a74a7",
+      "bytes": 136879,
+      "solar_date": "2020-08-04",
+      "platform": "Aqua",
+      "record_count": 412,
+      "proposed_filter_count": 394
+    },
+    {
+      "path": "snpp/2020-08-04.json",
+      "sha256": "82131607b1117d50e34d9758365d517ad9ee6719e5a7d865a1974d4c8a60b669",
+      "bytes": 530831,
+      "solar_date": "2020-08-04",
+      "platform": "S-NPP",
+      "record_count": 1586,
+      "proposed_filter_count": 1356
+    },
+    {
+      "path": "terra/2020-08-05.json",
+      "sha256": "17590b521b8225cd9999962f0b98aaf5533228cbfab0efb214290ca088f02daa",
+      "bytes": 77412,
+      "solar_date": "2020-08-05",
+      "platform": "Terra",
+      "record_count": 233,
+      "proposed_filter_count": 221
+    },
+    {
+      "path": "aqua/2020-08-05.json",
+      "sha256": "8ddcde99248f7c174e8cdff835dc70bff02f268d98237cdb95ddc7309bff712f",
+      "bytes": 13884,
+      "solar_date": "2020-08-05",
+      "platform": "Aqua",
+      "record_count": 41,
+      "proposed_filter_count": 35
+    },
+    {
+      "path": "snpp/2020-08-05.json",
+      "sha256": "1c31fa98498d0a6fbcc7bd63270b15fdbe28cda9153d31cef0edcfa065f1a8e3",
+      "bytes": 710417,
+      "solar_date": "2020-08-05",
+      "platform": "S-NPP",
+      "record_count": 2115,
+      "proposed_filter_count": 1731
+    },
+    {
+      "path": "terra/2020-08-06.json",
+      "sha256": "83894eb256e5a4632e6684ab14f89355330b12631a0bc30c5ae89de046c0f557",
+      "bytes": 67238,
+      "solar_date": "2020-08-06",
+      "platform": "Terra",
+      "record_count": 202,
+      "proposed_filter_count": 187
+    },
+    {
+      "path": "aqua/2020-08-06.json",
+      "sha256": "5cec3864215ac5f4f92fd8f69ea8b636359a621fcf6fcdb9a8d892d0b200119f",
+      "bytes": 188027,
+      "solar_date": "2020-08-06",
+      "platform": "Aqua",
+      "record_count": 567,
+      "proposed_filter_count": 538
+    },
+    {
+      "path": "snpp/2020-08-06.json",
+      "sha256": "df15b678c706870acb1ce51ac5e7079a53746d80f8f7727b3c1149124211691d",
+      "bytes": 628811,
+      "solar_date": "2020-08-06",
+      "platform": "S-NPP",
+      "record_count": 1880,
+      "proposed_filter_count": 1595
+    },
+    {
+      "path": "terra/2020-08-07.json",
+      "sha256": "6da7d974662184cfca87d76bf802b913354013323e771c841478298d967d2019",
+      "bytes": 50373,
+      "solar_date": "2020-08-07",
+      "platform": "Terra",
+      "record_count": 151,
+      "proposed_filter_count": 140
+    },
+    {
+      "path": "aqua/2020-08-07.json",
+      "sha256": "503ea6b670edb8401a052f1d1ff0b01737cb84a81c8506927e803ab5a57302a4",
+      "bytes": 48038,
+      "solar_date": "2020-08-07",
+      "platform": "Aqua",
+      "record_count": 144,
+      "proposed_filter_count": 135
+    },
+    {
+      "path": "snpp/2020-08-07.json",
+      "sha256": "381c1c19ceee95fcdb7874faab60d3eaddaf685f8c06a51a89898e6769e31772",
+      "bytes": 825550,
+      "solar_date": "2020-08-07",
+      "platform": "S-NPP",
+      "record_count": 2478,
+      "proposed_filter_count": 2328
+    },
+    {
+      "path": "terra/2020-08-08.json",
+      "sha256": "794e02c5b4e6d2116d91f16ddf1dde4983142c45dc18ea3f6b1c7fa0309d9176",
+      "bytes": 86243,
+      "solar_date": "2020-08-08",
+      "platform": "Terra",
+      "record_count": 259,
+      "proposed_filter_count": 240
+    },
+    {
+      "path": "aqua/2020-08-08.json",
+      "sha256": "46c5a0f11a726b923a2f44a093ca47d77d500a872ed896a69575f71107630187",
+      "bytes": 124911,
+      "solar_date": "2020-08-08",
+      "platform": "Aqua",
+      "record_count": 375,
+      "proposed_filter_count": 338
+    },
+    {
+      "path": "snpp/2020-08-08.json",
+      "sha256": "3087c031b19d2a83c06fe9ec047f2623f0d7f7d7a78ec8818c3a6446832d6b74",
+      "bytes": 609824,
+      "solar_date": "2020-08-08",
+      "platform": "S-NPP",
+      "record_count": 1830,
+      "proposed_filter_count": 1752
+    },
+    {
+      "path": "terra/2020-08-09.json",
+      "sha256": "e8943fb420fd2ab8d434ea12c5991ee4a4a78abe250f32d482af9a26db96b1f6",
+      "bytes": 21825,
+      "solar_date": "2020-08-09",
+      "platform": "Terra",
+      "record_count": 65,
+      "proposed_filter_count": 59
+    },
+    {
+      "path": "aqua/2020-08-09.json",
+      "sha256": "f137e5356fa0dc51b0eedc5c0a446eca96d379860da29d1468d6fbe3a81698c1",
+      "bytes": 93186,
+      "solar_date": "2020-08-09",
+      "platform": "Aqua",
+      "record_count": 280,
+      "proposed_filter_count": 262
+    },
+    {
+      "path": "snpp/2020-08-09.json",
+      "sha256": "0dddcb152c74332ec207f9595ada56c0b6e4daca0ebcf830705175362f1cc0b5",
+      "bytes": 610908,
+      "solar_date": "2020-08-09",
+      "platform": "S-NPP",
+      "record_count": 1824,
+      "proposed_filter_count": 1636
+    },
+    {
+      "path": "terra/2020-08-10.json",
+      "sha256": "5360660c77d7b894b4d44f6249821bbd9aa3c26799aeaa1e73712b2dbcb8911c",
+      "bytes": 162674,
+      "solar_date": "2020-08-10",
+      "platform": "Terra",
+      "record_count": 490,
+      "proposed_filter_count": 469
+    },
+    {
+      "path": "aqua/2020-08-10.json",
+      "sha256": "372c4ac2b4b8b5cb4784cefa99fe8fbdc915f243e3801e6fafc55e8c29b76447",
+      "bytes": 107577,
+      "solar_date": "2020-08-10",
+      "platform": "Aqua",
+      "record_count": 323,
+      "proposed_filter_count": 303
+    },
+    {
+      "path": "snpp/2020-08-10.json",
+      "sha256": "2bdcbdd225a7b037e25f1bc51bdb81cc697efa34032de57f834339a25a98139e",
+      "bytes": 993832,
+      "solar_date": "2020-08-10",
+      "platform": "S-NPP",
+      "record_count": 2949,
+      "proposed_filter_count": 2299
+    },
+    {
+      "path": "terra/2020-08-11.json",
+      "sha256": "7a2a5506ae9049a695adbd9cecb9a6b94d7e5407d46c33a04e381ce723858bfc",
+      "bytes": 8863,
+      "solar_date": "2020-08-11",
+      "platform": "Terra",
+      "record_count": 26,
+      "proposed_filter_count": 23
+    },
+    {
+      "path": "aqua/2020-08-11.json",
+      "sha256": "619f802eaf3ec0c47d65bd92954d6c0442ad52e6afa2af32440f3624a4ff1a93",
+      "bytes": 126736,
+      "solar_date": "2020-08-11",
+      "platform": "Aqua",
+      "record_count": 381,
+      "proposed_filter_count": 357
+    },
+    {
+      "path": "snpp/2020-08-11.json",
+      "sha256": "0c760b94fe59baa21de42eca5f1a10c60c528babadc1f512e974aaa58cada6b8",
+      "bytes": 696207,
+      "solar_date": "2020-08-11",
+      "platform": "S-NPP",
+      "record_count": 2082,
+      "proposed_filter_count": 1877
+    },
+    {
+      "path": "terra/2020-08-12.json",
+      "sha256": "77b7be2f5ad1326df5cf494d0c28d73ff239fea9b983422e38a56d9c19ba1481",
+      "bytes": 47151,
+      "solar_date": "2020-08-12",
+      "platform": "Terra",
+      "record_count": 141,
+      "proposed_filter_count": 129
+    },
+    {
+      "path": "aqua/2020-08-12.json",
+      "sha256": "15b3d613ebed9bfc8a348bc52bf849cb2798f64c6b42b71481d6779da18df1f9",
+      "bytes": 8528,
+      "solar_date": "2020-08-12",
+      "platform": "Aqua",
+      "record_count": 25,
+      "proposed_filter_count": 22
+    },
+    {
+      "path": "snpp/2020-08-12.json",
+      "sha256": "30683e5d8e6af7fd9d75d6bbf399da64d9019e3e32aa73d2dd9ae40d4fd03d30",
+      "bytes": 216313,
+      "solar_date": "2020-08-12",
+      "platform": "S-NPP",
+      "record_count": 649,
+      "proposed_filter_count": 645
+    },
+    {
+      "path": "terra/2020-08-13.json",
+      "sha256": "7e76ad7e45d164554a613e3408559140316460587c898676690668b0aec9e670",
+      "bytes": 24245,
+      "solar_date": "2020-08-13",
+      "platform": "Terra",
+      "record_count": 72,
+      "proposed_filter_count": 65
+    },
+    {
+      "path": "aqua/2020-08-13.json",
+      "sha256": "24cc4bde0ad0fd4192104bdc57a198635cb94024e9067dc7957833decc9907e3",
+      "bytes": 92799,
+      "solar_date": "2020-08-13",
+      "platform": "Aqua",
+      "record_count": 278,
+      "proposed_filter_count": 260
+    },
+    {
+      "path": "snpp/2020-08-13.json",
+      "sha256": "845a6ff502853c20260350d6b8e54b8e818470ab5d64861092987351dd5140d4",
+      "bytes": 294407,
+      "solar_date": "2020-08-13",
+      "platform": "S-NPP",
+      "record_count": 882,
+      "proposed_filter_count": 858
+    },
+    {
+      "path": "terra/2020-08-14.json",
+      "sha256": "f7e2980ff14a1e12e2f3246d752822e3cd2c5002acc01f6cee1ff4375456a444",
+      "bytes": 85505,
+      "solar_date": "2020-08-14",
+      "platform": "Terra",
+      "record_count": 256,
+      "proposed_filter_count": 242
+    },
+    {
+      "path": "aqua/2020-08-14.json",
+      "sha256": "2a8550c5e82404a570f58a1bb398bf316e340e8d495e049980cad58867bc2df7",
+      "bytes": 7909,
+      "solar_date": "2020-08-14",
+      "platform": "Aqua",
+      "record_count": 23,
+      "proposed_filter_count": 19
+    },
+    {
+      "path": "snpp/2020-08-14.json",
+      "sha256": "eebeacc4703c866b96fb576b53379bd889472100d8cd6551f88e795a19b90d4b",
+      "bytes": 507628,
+      "solar_date": "2020-08-14",
+      "platform": "S-NPP",
+      "record_count": 1520,
+      "proposed_filter_count": 1461
+    },
+    {
+      "path": "terra/2020-08-15.json",
+      "sha256": "c057844ebe442434a4679e686f1dd8da7a98310dc54a408f369df3eb558b68ff",
+      "bytes": 94012,
+      "solar_date": "2020-08-15",
+      "platform": "Terra",
+      "record_count": 282,
+      "proposed_filter_count": 266
+    },
+    {
+      "path": "aqua/2020-08-15.json",
+      "sha256": "974e92b05965b784adcf8f8904888b16dbab347eb7fac296082959d3538d5c43",
+      "bytes": 254574,
+      "solar_date": "2020-08-15",
+      "platform": "Aqua",
+      "record_count": 764,
+      "proposed_filter_count": 730
+    },
+    {
+      "path": "snpp/2020-08-15.json",
+      "sha256": "bc94fef6bfd49b78f65f655949f6a642b5b8203f3390ad188c904a2f63f25f67",
+      "bytes": 1127476,
+      "solar_date": "2020-08-15",
+      "platform": "S-NPP",
+      "record_count": 3367,
+      "proposed_filter_count": 3071
+    }
+  ]
+}
