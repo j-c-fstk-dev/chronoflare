@@ -2326,6 +2326,12 @@
       "retrieved_at_utc": "2026-11-15T03:03:24.782800+00:00"
     }
   ],
+  "acquisition_failures": [
+    {
+      "id": "modis_sp-2021-08-16",
+      "reason": "transport_or_validation"
+    }
+  ],
   "complete_acquisition": false,
   "completed_blocks": [
     "2017-dry",
