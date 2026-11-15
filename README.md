@@ -127,3 +127,9 @@ remains unapproved and application fixtures stay separate. See the
 [multi-year pipeline](docs/multiyear-pipeline.md) now provides fixed acquisition,
 verified resume, actual sample audits and frozen-model experiments; it does not
 publish harmonized application data.
+
+See the [AI assistance and content provenance disclosure](docs/ai-disclosure.md)
+and machine-readable [`ai-disclosure.json`](app/public/ai-disclosure.json). The
+team inventory and final submission media must be confirmed before calling the
+disclosure complete. Raw NASA observations are distinct from AI-assisted code,
+derived statistics and explicitly synthetic demonstration fixtures.

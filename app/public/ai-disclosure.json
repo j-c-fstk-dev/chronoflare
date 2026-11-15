@@ -1,0 +1,80 @@
+{
+  "schema_version": "ai-disclosure/1.0.0",
+  "project": "ChronoFlare",
+  "inventory_status": "partial_pending_final_tool_usage_and_submission_media_confirmation",
+  "confirmed_tools": [
+    {
+      "name": "OpenAI Codex",
+      "role": "AI coding assistant",
+      "model_version": "not_recorded",
+      "uses": ["implementation", "debugging", "tests", "documentation"],
+      "status": "used"
+    },
+    {
+      "name": "Cursor",
+      "status": "used_as_reported_by_team",
+      "uses": ["frontend_development"],
+      "contributor": "Anastasia"
+    }
+  ],
+  "content": {
+    "raw_firms_observations": {
+      "origin": "NASA FIRMS",
+      "generative_ai_synthesis": false
+    },
+    "native_summaries": {
+      "origin": "deterministic_processing_of_observations",
+      "processing_code_ai_assisted": true,
+      "generative_ai_synthesis": false
+    },
+    "calibration_and_validation": {
+      "origin": "frozen_statistical_models_and_deterministic_metrics",
+      "implementation_ai_assisted": true,
+      "harmonization_approved": false
+    },
+    "demo_fixtures": {
+      "origin": "deterministic_synthetic_generation",
+      "generation_code_ai_assisted": true,
+      "is_satellite_observation": false
+    },
+    "active_boundary": {
+      "origin": "IBGE_2025",
+      "generative_ai_synthesis": false
+    },
+    "historical_excluded_boundary": {
+      "origin": "Gemini_generated_prototype",
+      "used_in_current_processing": false
+    },
+    "submission_media": {
+      "inventory_status": "pending_submitter_confirmation"
+    },
+    "code": {
+      "origin": "team_and_AI_assisted_implementation",
+      "confirmed_ai_assistance": true,
+      "scope": [
+        "app/src",
+        "science/scripts",
+        "science/tests",
+        "scripts",
+        "docs"
+      ],
+      "individual_file_inventory_complete": false
+    }
+  },
+  "human_review_status": "team_responsibility_completion_not_attested",
+  "description": "AI assisted code, testing and documentation. Real NASA observations were not synthesized by generative AI. Synthetic demo values are separate and labeled.",
+  "documentation_url": "https://github.com/j-c-fstk-dev/chronoflare/blob/main/docs/ai-disclosure.md",
+  "guidance_url": "https://github.com/nasa/spaceapps/discussions/1849",
+  "planned_tools": [
+    {
+      "name": "Claude",
+      "status": "planned_as_reported_by_team",
+      "uses": ["harmonization_investigation"]
+    },
+    {
+      "name": "Claude Code",
+      "status": "planned_as_reported_by_team",
+      "uses": ["harmonization_investigation", "final_code_review"]
+    }
+  ]
+}
