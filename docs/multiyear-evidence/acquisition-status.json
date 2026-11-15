@@ -3,7 +3,7 @@
   "plan_fingerprint": "6819c871aed0ddc56db84d7be35537fc456d2ceed1c4ebf1418c9486d74dee7a",
   "completed_requests": 416,
   "planned_requests": 416,
-  "new_request_attempts": 205,
+  "new_request_attempts": 0,
   "complete": true,
   "requests": [
     {
