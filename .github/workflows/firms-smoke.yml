@@ -6,7 +6,21 @@ on:
         description: API smoke test, historical pilot, replay, preview or source record export
         type: choice
         default: smoke
-        options: [smoke, pilot, replay, preview, records, training, indicator]
+        options:
+          [
+            smoke,
+            pilot,
+            replay,
+            preview,
+            records,
+            training,
+            indicator,
+            multiyear,
+          ]
+      max_new_requests:
+        description: New NASA attempt budget for multi-year mode only
+        type: string
+        default: "416"
       evidence_layout:
         description: Evidence layout for training acquisition or offline replay
         type: choice
@@ -24,7 +38,7 @@ permissions:
   actions: read
 jobs:
   download:
-    if: inputs.mode != 'records' && inputs.mode != 'training' && inputs.mode != 'indicator'
+    if: inputs.mode != 'records' && inputs.mode != 'training' && inputs.mode != 'indicator' && inputs.mode != 'multiyear'
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -290,3 +304,11 @@ jobs:
       - name: Remove temporary evidence
         if: always()
         run: rm -rf -- "$RUNNER_TEMP/observed-indicator-evidence"
+
+  multiyear:
+    if: inputs.mode == 'multiyear'
+    uses: ./.github/workflows/scientific-pipeline.yml
+    with:
+      resume_run_id: ${{ inputs.replay_run_id || '' }}
+      max_new_requests: ${{ inputs.max_new_requests || '416' }}
+    secrets: inherit

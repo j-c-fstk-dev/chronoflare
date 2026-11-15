@@ -1,0 +1,60 @@
+name: Multi-year scientific pipeline
+on:
+  workflow_call:
+    inputs:
+      resume_run_id:
+        type: string
+        default: ""
+      max_new_requests:
+        type: string
+        default: "416"
+    secrets:
+      FIRMS_MAP_KEY:
+        required: true
+  workflow_dispatch:
+    inputs:
+      resume_run_id:
+        description: Previous run containing multiyear-source-evidence (blank for new cache)
+        type: string
+        default: ""
+      max_new_requests:
+        description: Maximum new NASA attempts including retries, 0 for verified replay
+        type: string
+        default: "416"
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: multiyear-firms-acquisition
+  cancel-in-progress: false
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/download-artifact@v4
+        if: inputs.resume_run_id != ''
+        with:
+          name: multiyear-source-evidence
+          path: ${{ runner.temp }}/multiyear-evidence
+          run-id: ${{ inputs.resume_run_id }}
+          github-token: ${{ github.token }}
+      - name: Acquire or verify frozen requests
+        env:
+          FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}
+          REQUEST_BUDGET: ${{ inputs.max_new_requests }}
+        run: python science/scripts/acquire_multiyear.py --cache "$RUNNER_TEMP/multiyear-evidence" --max-new-requests "$REQUEST_BUDGET"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: multiyear-source-evidence
+          path: ${{ runner.temp }}/multiyear-evidence/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Remove runner source cache
+        if: always()
+        run: rm -rf -- "$RUNNER_TEMP/multiyear-evidence"

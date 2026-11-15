@@ -26,3 +26,23 @@ feed forward selection or residuals.
 The current FIRMS key is sufficient. Download errors, expired artifacts or sample
 shortfalls must be reported explicitly. Model approval remains separate from
 source acquisition and from publishing application data.
+
+## Stage 3: resumable acquisition
+
+`acquire_multiyear.py --cache /offline/path --max-new-requests 416` verifies all
+existing CSV hashes, schemas, dates, bounds, counts and SP provenance before
+spending a new request. Completed entries are immutable. The cache is bound to
+the exact plan; an exclusive process lock prevents concurrent writers. A corrupt
+entry stops acquisition for investigation instead of silently redownloading it.
+
+Requests run sequentially with pacing and at most three attempts. The request
+budget includes retries. Failure stops the batch and preserves completed inputs;
+no unbounded rate-limit retry is attempted. The manifest records only sanitized
+metadata and hashes. Empty successful CSVs are retained, without inferring zeros.
+
+The `Multi-year scientific pipeline` workflow retains private source artifacts
+for 90 days, including partial results on failure. Set `resume_run_id` to the
+previous run to continue; set budget to zero for verified offline replay. Before
+artifact expiry, preserve the cache in controlled project storage. No secret
+enters raw provenance, committed data or command-line arguments. The workflow
+uses the existing `FIRMS_MAP_KEY` GitHub secret and never deploys application data.
