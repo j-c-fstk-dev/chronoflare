@@ -1,6 +1,6 @@
 {
   "schema_version": "observed-indicator-preparation/1.1.0",
-  "protocol_sha256": "8645565c6b09308a15970434250f0c497b95fe292aff6bb7732a746964f6a437",
+  "protocol_sha256": "c7c6e9ffb27a251f161d402de3b2a6a043f64917b92f9a2e04817b251cdc18e9",
   "years": {
     "2019": {
       "schema_version": "observed-indicator-turns/1.1.0",
@@ -2741,6 +2741,6 @@
   "fit_performed": false,
   "validation_performed": false,
   "harmonization_approved": false,
-  "weekly_validation_status": "not_run_no_fitted_daily_estimates_or_final_statistic_selection",
+  "weekly_validation_status": "not_run_no_fitted_daily_estimates",
   "notice": "Observed same-turn positive cohorts only; not complete AOI/cloud coverage. Calibration, weekly evaluation, empirical intervals and approval remain unexecuted."
 }
