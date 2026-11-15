@@ -2694,9 +2694,9 @@
       "fit_performed": false,
       "harmonization_approved": false,
       "paired_test_dates": 15,
+      "distinct_test_years": 1,
       "meets_test_sample_floor": false,
-      "fit_allowed": false,
-      "distinct_test_years": 1
+      "fit_allowed": false
     },
     {
       "platform": "Terra",
@@ -2708,9 +2708,9 @@
       "fit_performed": false,
       "harmonization_approved": false,
       "paired_test_dates": 15,
+      "distinct_test_years": 1,
       "meets_test_sample_floor": false,
-      "fit_allowed": false,
-      "distinct_test_years": 1
+      "fit_allowed": false
     },
     {
       "platform": "Aqua",
@@ -2722,9 +2722,9 @@
       "fit_performed": false,
       "harmonization_approved": false,
       "paired_test_dates": 15,
+      "distinct_test_years": 1,
       "meets_test_sample_floor": false,
-      "fit_allowed": false,
-      "distinct_test_years": 1
+      "fit_allowed": false
     },
     {
       "platform": "Aqua",
@@ -2736,9 +2736,9 @@
       "fit_performed": false,
       "harmonization_approved": false,
       "paired_test_dates": 13,
+      "distinct_test_years": 1,
       "meets_test_sample_floor": false,
-      "fit_allowed": false,
-      "distinct_test_years": 1
+      "fit_allowed": false
     }
   ],
   "new_nasa_requests": 0,

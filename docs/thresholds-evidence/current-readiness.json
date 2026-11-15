@@ -1,7 +1,7 @@
 {
   "schema_version": "scientific-validation-readiness/1.0.0",
   "thresholds_sha256": "7e9fd5b7f528eb26abc3743568a200b7c8693d6a0ad3f5a9ff51661fa2369045",
-  "observations_sha256": "f3a37b17bbde92939c34634bd3f426376ccfc21c64aa639f77a4e08ad393f166",
+  "observations_sha256": "358e3d23f873458c2724676690c7826f3388c23a0a5a321856b422893050af56",
   "thresholds_registered_at_utc": "2026-11-15T01:57:00Z",
   "evaluation_status": "not_run",
   "empirical_metrics": null,
