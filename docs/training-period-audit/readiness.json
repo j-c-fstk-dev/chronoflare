@@ -1,0 +1,32 @@
+{
+  "schema_version": "training-period-readiness/1.0.0",
+  "quality_rule_version": "indicator-sp-quality/1.0.0",
+  "reference_boundary_sha256": "474e762695516c78f1f63749b6dcf787601ee9a692766484a167cd1c67983e9c",
+  "years": [
+    2019,
+    2020
+  ],
+  "new_nasa_requests": 8,
+  "replayed_requests": 8,
+  "forward_roles": {
+    "2019": "training_period_candidate",
+    "2020": "held_out_period_candidate"
+  },
+  "distinct_solar_dates_per_year": 15,
+  "seasons": [
+    "dry"
+  ],
+  "same_quality_rule": true,
+  "same_boundary": true,
+  "deduplication_applied": false,
+  "model_fit_performed": false,
+  "validation_performed": false,
+  "harmonization_approved": false,
+  "remaining": [
+    "final duplicate/rounding policy",
+    "missing-turn estimate policy",
+    "delivery 4 thresholds and evaluation rules",
+    "multi-year and wet-season inputs"
+  ],
+  "notice": "Side-by-side acquisition/quality readiness only. Do not interpret pre-dedup counts or FRP audit sums as calibrated inter-year fire trends."
+}
