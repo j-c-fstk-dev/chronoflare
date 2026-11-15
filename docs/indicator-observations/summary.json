@@ -1,0 +1,2746 @@
+{
+  "schema_version": "observed-indicator-preparation/1.1.0",
+  "protocol_sha256": "8645565c6b09308a15970434250f0c497b95fe292aff6bb7732a746964f6a437",
+  "years": {
+    "2019": {
+      "schema_version": "observed-indicator-turns/1.1.0",
+      "region_id": "pantanal_ibge_2025_reference",
+      "quality_rule_version": "indicator-sp-quality/1.0.0",
+      "dedup_rule_version": "indicator-exact-key/python-float64-round-1.1.0",
+      "raw_record_count": 5647,
+      "quality_pass_count": 5227,
+      "included_record_count": 5227,
+      "duplicate_exclusions": 0,
+      "calibration_performed": false,
+      "harmonization_approved": false,
+      "source_csv_sha256": [
+        "e692d1e06d8ca5679ec7332a319a130d74f49a2f14753bbb0b7b559568da13f1",
+        "b8689d663e0967a805ffc80ad4958f7757952b42f17cf8891ada6220066afec9",
+        "fc2965385b06e30fbf5cb5a44bdeb5ecfac7532597da77a4b65a96e71676067c",
+        "a8862c30a2759f04855a501f08f5f874e88c2775c5a11ffa09d678efcbbd050d",
+        "5d3e7330f198dbd78e3af428c6ecc0311d39f180bb130a791549900ef73f528e",
+        "e6cdf1e87472a44b3ca749297f108e3ade8c432c0a11afe911911ab75ffc53a3",
+        "e2c73394c549984386a7b30524655784955222b50ac8f96c9590d61669bd96cb",
+        "2a764a480780aa544f6aacfb2aa8fce26ab3f6b2cec9ba4135f1d292f2515b0e"
+      ]
+    },
+    "2020": {
+      "schema_version": "observed-indicator-turns/1.1.0",
+      "region_id": "pantanal_ibge_2025_reference",
+      "quality_rule_version": "indicator-sp-quality/1.0.0",
+      "dedup_rule_version": "indicator-exact-key/python-float64-round-1.1.0",
+      "raw_record_count": 33413,
+      "quality_pass_count": 30132,
+      "included_record_count": 30132,
+      "duplicate_exclusions": 0,
+      "calibration_performed": false,
+      "harmonization_approved": false,
+      "source_csv_sha256": [
+        "ed9ecdc3374da601416bb11220f4bf769d36a3e8f9af0d17d414d9d8733a3bdf",
+        "36aefa99bf8e6c0e15f28d055597f7dd740f8c8e1ff51ac05430ce3f2cf00add",
+        "5f35147bbd92ec529493dca837b097dfd26f4b64061639500daad057cfe5692a",
+        "d93dce42cd86ae137e8d372ebe727c6531d02e4ea23643ed0c5d38884914000a",
+        "66d1c8aa083b92715ab98fbe5161a74a4218b1142fdccd7ab74063dc6ed853e7",
+        "2a671c2e6df799d9e2f3beb542bb42abc0600d7845e8f093ba47665a545a7c59",
+        "9d60a0a5683e60507afac644f5dc2ff2a75ee7d11c4a4f9c65e581c4872d6c55",
+        "3a45a8b6fb04fe3beffa6a1c2261124287ec7442535578871d4464b8a8445687"
+      ]
+    }
+  },
+  "forward_pairing": {
+    "Terra": {
+      "pairs": [
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-01",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 79,
+          "reference_value": 395
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-01",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 2904.0,
+          "reference_value": 5381.13
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-01",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 17,
+          "reference_value": 46
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-01",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 216.7,
+          "reference_value": 344.95
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-03",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 10,
+          "reference_value": 52
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-03",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 139.5,
+          "reference_value": 484.53999999999996
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-04",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 2,
+          "reference_value": 67
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-04",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 69.0,
+          "reference_value": 715.9499999999999
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-04",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 1,
+          "reference_value": 2
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-04",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 30.4,
+          "reference_value": 1.44
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-05",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 4,
+          "reference_value": 139
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-05",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 58.5,
+          "reference_value": 975.41
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-05",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 2,
+          "reference_value": 15
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-05",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 111.6,
+          "reference_value": 25.37
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-06",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 6,
+          "reference_value": 84
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-06",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 256.5,
+          "reference_value": 971.22
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-06",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 2,
+          "reference_value": 9
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-06",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 43.3,
+          "reference_value": 80.63
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-07",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 10,
+          "reference_value": 160
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-07",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 289.1,
+          "reference_value": 1676.3
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-07",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 2,
+          "reference_value": 21
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-07",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 159.8,
+          "reference_value": 44.5
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-08",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 21,
+          "reference_value": 188
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-08",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 477.8,
+          "reference_value": 2526.13
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-08",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 11,
+          "reference_value": 71
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-08",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 168.3,
+          "reference_value": 186.42
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-09",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 4,
+          "reference_value": 265
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-09",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 351.9,
+          "reference_value": 2307.02
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-09",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 2,
+          "reference_value": 66
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-09",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 111.8,
+          "reference_value": 281.39
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-10",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 41,
+          "reference_value": 167
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-10",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 747.7,
+          "reference_value": 1604.06
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-10",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 16,
+          "reference_value": 76
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-10",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 381.0,
+          "reference_value": 174.41
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-11",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 6,
+          "reference_value": 367
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-11",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 665.3,
+          "reference_value": 9515.81
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-11",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 3,
+          "reference_value": 79
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-11",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 104.8,
+          "reference_value": 372.1
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-12",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 39,
+          "reference_value": 331
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-12",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 846.8,
+          "reference_value": 5150.31
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-12",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 6,
+          "reference_value": 35
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-12",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 105.1,
+          "reference_value": 76.09
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-13",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 9,
+          "reference_value": 188
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-13",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 258.1,
+          "reference_value": 1744.41
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-13",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 15,
+          "reference_value": 118
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-13",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 284.9,
+          "reference_value": 397.31
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-14",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 41,
+          "reference_value": 306
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-14",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 2069.5,
+          "reference_value": 3206.25
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-15",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 73,
+          "reference_value": 281
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-15",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 3819.5,
+          "reference_value": 4441.44
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-15",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 39,
+          "reference_value": 96
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-15",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 732.1,
+          "reference_value": 633.79
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-01",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 86,
+          "reference_value": 560
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-01",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 4885.5,
+          "reference_value": 10261.96
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-01",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 45,
+          "reference_value": 131
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-01",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 519.7,
+          "reference_value": 704.48
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-02",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 31,
+          "reference_value": 1140
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-02",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 5690.9,
+          "reference_value": 21012.45
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-02",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 1,
+          "reference_value": 196
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-02",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 54.0,
+          "reference_value": 846.8
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-03",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 132,
+          "reference_value": 793
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-03",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 5717.3,
+          "reference_value": 10483.18
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-03",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 99,
+          "reference_value": 273
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-03",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 2255.5,
+          "reference_value": 1926.57
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-04",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 29,
+          "reference_value": 831
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-04",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 5268.2,
+          "reference_value": 15629.01
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-04",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 17,
+          "reference_value": 525
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-04",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 1075.7,
+          "reference_value": 1886.82
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-05",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 166,
+          "reference_value": 1034
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-05",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 13295.0,
+          "reference_value": 16476.96
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-05",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 55,
+          "reference_value": 697
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-05",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 1450.3,
+          "reference_value": 2462.19
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-06",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 112,
+          "reference_value": 1092
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-06",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 11871.4,
+          "reference_value": 24590.68
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-06",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 75,
+          "reference_value": 503
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-06",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 5657.7,
+          "reference_value": 1462.94
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-07",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 108,
+          "reference_value": 1351
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-07",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 7665.6,
+          "reference_value": 23712.8
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-07",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 32,
+          "reference_value": 977
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-07",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 2214.1,
+          "reference_value": 4172.59
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-08",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 141,
+          "reference_value": 1213
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-08",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 9954.1,
+          "reference_value": 17716.53
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-08",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 99,
+          "reference_value": 539
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-08",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 2263.5,
+          "reference_value": 1827.17
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-09",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 54,
+          "reference_value": 1051
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-09",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 5460.9,
+          "reference_value": 19595.69
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-09",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 5,
+          "reference_value": 585
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-09",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 598.4,
+          "reference_value": 2147.14
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-10",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 241,
+          "reference_value": 1400
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-10",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 25681.1,
+          "reference_value": 41635.32
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-10",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 228,
+          "reference_value": 898
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-10",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 8467.8,
+          "reference_value": 3161.57
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-11",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 2,
+          "reference_value": 937
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-11",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 95.9,
+          "reference_value": 16892.27
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-11",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 21,
+          "reference_value": 940
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-11",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 2581.9,
+          "reference_value": 5733.03
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-12",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 52,
+          "reference_value": 114
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-12",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 2593.7,
+          "reference_value": 2088.09
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-12",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 77,
+          "reference_value": 531
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-12",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 3142.6,
+          "reference_value": 3816.63
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-13",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 37,
+          "reference_value": 374
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-13",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 4464.8,
+          "reference_value": 8614.78
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-13",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 28,
+          "reference_value": 484
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-13",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 4220.2,
+          "reference_value": 4054.66
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-14",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 125,
+          "reference_value": 1066
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-14",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 12313.6,
+          "reference_value": 25534.09
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-14",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 117,
+          "reference_value": 395
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-14",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 18141.7,
+          "reference_value": 2632.97
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-15",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 189,
+          "reference_value": 1324
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-15",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 36232.2,
+          "reference_value": 45388.23
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-15",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 77,
+          "reference_value": 1747
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-15",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Terra",
+          "reference_platform": "S-NPP",
+          "predictor_value": 4092.2,
+          "reference_value": 16114.64
+        }
+      ],
+      "excluded": [
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-02",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "reasons": [
+            "null_predictor"
+          ]
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-02",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "reasons": [
+            "null_predictor"
+          ]
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-02",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "reasons": [
+            "null_predictor"
+          ]
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-02",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "reasons": [
+            "null_predictor"
+          ]
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-03",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "reasons": [
+            "null_predictor"
+          ]
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-03",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "reasons": [
+            "null_predictor"
+          ]
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-14",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "reasons": [
+            "null_predictor"
+          ]
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-14",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "reasons": [
+            "null_predictor"
+          ]
+        }
+      ],
+      "fit_performed": false,
+      "validation_performed": false
+    },
+    "Aqua": {
+      "pairs": [
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-01",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 38,
+          "reference_value": 395
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-01",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 4918.0,
+          "reference_value": 5381.13
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-01",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 3,
+          "reference_value": 46
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-01",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 205.0,
+          "reference_value": 344.95
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-02",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 42,
+          "reference_value": 109
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-02",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 877.6999999999999,
+          "reference_value": 1251.45
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-02",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 15,
+          "reference_value": 110
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-02",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 602.4,
+          "reference_value": 1715.84
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-03",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 9,
+          "reference_value": 52
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-03",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 688.9,
+          "reference_value": 484.53999999999996
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-04",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 37,
+          "reference_value": 67
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-04",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 1096.2,
+          "reference_value": 715.9499999999999
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-05",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 15,
+          "reference_value": 139
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-05",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 801.3,
+          "reference_value": 975.41
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-06",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 26,
+          "reference_value": 84
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-06",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 1019.9,
+          "reference_value": 971.22
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-06",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 2,
+          "reference_value": 9
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-06",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 55.4,
+          "reference_value": 80.63
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-07",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 45,
+          "reference_value": 160
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-07",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 1593.3,
+          "reference_value": 1676.3
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-07",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 1,
+          "reference_value": 21
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-07",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 19.8,
+          "reference_value": 44.5
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-08",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 23,
+          "reference_value": 188
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-08",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 1278.8,
+          "reference_value": 2526.13
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-08",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 5,
+          "reference_value": 71
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-08",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 290.4,
+          "reference_value": 186.42
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-09",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 89,
+          "reference_value": 265
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-09",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 3122.7,
+          "reference_value": 2307.02
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-09",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 1,
+          "reference_value": 66
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-09",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 22.6,
+          "reference_value": 281.39
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-10",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 7,
+          "reference_value": 167
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-10",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 747.5,
+          "reference_value": 1604.06
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-10",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 4,
+          "reference_value": 76
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-10",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 206.20000000000002,
+          "reference_value": 174.41
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-11",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 120,
+          "reference_value": 367
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-11",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 7952.4,
+          "reference_value": 9515.81
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-11",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 8,
+          "reference_value": 79
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-11",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 204.70000000000002,
+          "reference_value": 372.1
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-12",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 37,
+          "reference_value": 331
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-12",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 6600.0,
+          "reference_value": 5150.31
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-13",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 58,
+          "reference_value": 188
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-13",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 1509.1,
+          "reference_value": 1744.41
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-13",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 13,
+          "reference_value": 118
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-13",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 241.20000000000002,
+          "reference_value": 397.31
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-14",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 37,
+          "reference_value": 306
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-14",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 2205.5,
+          "reference_value": 3206.25
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-15",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 68,
+          "reference_value": 281
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-15",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 3764.6,
+          "reference_value": 4441.44
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-15",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 10,
+          "reference_value": 96
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-15",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 320.6,
+          "reference_value": 633.79
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-01",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 126,
+          "reference_value": 560
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-01",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 10688.6,
+          "reference_value": 10261.96
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-01",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 16,
+          "reference_value": 131
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-01",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 595.1,
+          "reference_value": 704.48
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-02",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 265,
+          "reference_value": 1140
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-02",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 15774.4,
+          "reference_value": 21012.45
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-02",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 18,
+          "reference_value": 196
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-02",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 647.4,
+          "reference_value": 846.8
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-03",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 110,
+          "reference_value": 793
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-03",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 11667.1,
+          "reference_value": 10483.18
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-03",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 22,
+          "reference_value": 273
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-03",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 1252.4,
+          "reference_value": 1926.57
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-04",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 347,
+          "reference_value": 831
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-04",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 17660.7,
+          "reference_value": 15629.01
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-04",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 47,
+          "reference_value": 525
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-04",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 1505.6,
+          "reference_value": 1886.82
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-05",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 25,
+          "reference_value": 1034
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-05",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 3670.7,
+          "reference_value": 16476.96
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-05",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 10,
+          "reference_value": 697
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-05",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 756.4,
+          "reference_value": 2462.19
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-06",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 486,
+          "reference_value": 1092
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-06",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 33056.4,
+          "reference_value": 24590.68
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-06",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 52,
+          "reference_value": 503
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-06",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 765.6,
+          "reference_value": 1462.94
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-07",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 135,
+          "reference_value": 1351
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-07",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 16554.1,
+          "reference_value": 23712.8
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-08",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 270,
+          "reference_value": 1213
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-08",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 17445.6,
+          "reference_value": 17716.53
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-08",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 68,
+          "reference_value": 539
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-08",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 1724.9,
+          "reference_value": 1827.17
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-09",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 249,
+          "reference_value": 1051
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-09",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 21672.7,
+          "reference_value": 19595.69
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-09",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 13,
+          "reference_value": 585
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-09",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 633.2,
+          "reference_value": 2147.14
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-10",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 268,
+          "reference_value": 1400
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-10",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 52611.1,
+          "reference_value": 41635.32
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-10",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 35,
+          "reference_value": 898
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-10",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 1947.5,
+          "reference_value": 3161.57
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-11",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 278,
+          "reference_value": 937
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-11",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 20470.6,
+          "reference_value": 16892.27
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-11",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 79,
+          "reference_value": 940
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-11",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 3040.3,
+          "reference_value": 5733.03
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-12",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 4,
+          "reference_value": 114
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-12",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 404.4,
+          "reference_value": 2088.09
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-12",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 18,
+          "reference_value": 531
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-12",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 1944.1000000000001,
+          "reference_value": 3816.63
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-13",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 161,
+          "reference_value": 374
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-13",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 11310.3,
+          "reference_value": 8614.78
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-13",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 99,
+          "reference_value": 484
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-13",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 6095.2,
+          "reference_value": 4054.66
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-14",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 19,
+          "reference_value": 1066
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-14",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 3392.7,
+          "reference_value": 25534.09
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-15",
+          "day_night": "D",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 491,
+          "reference_value": 1324
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-15",
+          "day_night": "D",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 53909.7,
+          "reference_value": 45388.23
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-15",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 239,
+          "reference_value": 1747
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-15",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "predictor_platform": "Aqua",
+          "reference_platform": "S-NPP",
+          "predictor_value": 14993.8,
+          "reference_value": 16114.64
+        }
+      ],
+      "excluded": [
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-03",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "reasons": [
+            "null_predictor"
+          ]
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-03",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "reasons": [
+            "null_predictor"
+          ]
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-04",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "reasons": [
+            "null_predictor"
+          ]
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-04",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "reasons": [
+            "null_predictor"
+          ]
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-05",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "reasons": [
+            "null_predictor"
+          ]
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-05",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "reasons": [
+            "null_predictor"
+          ]
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-12",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "reasons": [
+            "null_predictor"
+          ]
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-12",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "reasons": [
+            "null_predictor"
+          ]
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-14",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "train",
+          "reasons": [
+            "null_predictor"
+          ]
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2019-08-14",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "train",
+          "reasons": [
+            "null_predictor"
+          ]
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-07",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "reasons": [
+            "null_predictor"
+          ]
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-07",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "reasons": [
+            "null_predictor"
+          ]
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-14",
+          "day_night": "N",
+          "metric": "detection_count",
+          "split": "test",
+          "reasons": [
+            "null_predictor"
+          ]
+        },
+        {
+          "region_id": "pantanal_ibge_2025_reference",
+          "solar_date": "2020-08-14",
+          "day_night": "N",
+          "metric": "frp_sum_mw",
+          "split": "test",
+          "reasons": [
+            "null_predictor"
+          ]
+        }
+      ],
+      "fit_performed": false,
+      "validation_performed": false
+    }
+  },
+  "sample_floor_audit": [
+    {
+      "platform": "Terra",
+      "day_night": "D",
+      "season_scope": "dry_sample_only",
+      "paired_positive_dates": 14,
+      "distinct_training_years": 1,
+      "meets_registered_sample_floor": false,
+      "fit_performed": false,
+      "harmonization_approved": false,
+      "paired_test_dates": 15,
+      "meets_test_sample_floor": true,
+      "fit_allowed": false
+    },
+    {
+      "platform": "Terra",
+      "day_night": "N",
+      "season_scope": "dry_sample_only",
+      "paired_positive_dates": 12,
+      "distinct_training_years": 1,
+      "meets_registered_sample_floor": false,
+      "fit_performed": false,
+      "harmonization_approved": false,
+      "paired_test_dates": 15,
+      "meets_test_sample_floor": true,
+      "fit_allowed": false
+    },
+    {
+      "platform": "Aqua",
+      "day_night": "D",
+      "season_scope": "dry_sample_only",
+      "paired_positive_dates": 15,
+      "distinct_training_years": 1,
+      "meets_registered_sample_floor": false,
+      "fit_performed": false,
+      "harmonization_approved": false,
+      "paired_test_dates": 15,
+      "meets_test_sample_floor": true,
+      "fit_allowed": false
+    },
+    {
+      "platform": "Aqua",
+      "day_night": "N",
+      "season_scope": "dry_sample_only",
+      "paired_positive_dates": 10,
+      "distinct_training_years": 1,
+      "meets_registered_sample_floor": false,
+      "fit_performed": false,
+      "harmonization_approved": false,
+      "paired_test_dates": 13,
+      "meets_test_sample_floor": false,
+      "fit_allowed": false
+    }
+  ],
+  "new_nasa_requests": 0,
+  "fit_performed": false,
+  "validation_performed": false,
+  "harmonization_approved": false,
+  "weekly_validation_status": "not_run_no_fitted_daily_estimates_or_final_statistic_selection",
+  "notice": "Observed same-turn positive cohorts only; not complete AOI/cloud coverage. Calibration, weekly evaluation, empirical intervals and approval remain unexecuted."
+}

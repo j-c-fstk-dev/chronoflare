@@ -1,0 +1,924 @@
+{
+  "schema_version": "observed-indicator-turns/1.1.0",
+  "region_id": "pantanal_ibge_2025_reference",
+  "quality_rule_version": "indicator-sp-quality/1.0.0",
+  "dedup_rule_version": "indicator-exact-key/python-float64-round-1.1.0",
+  "raw_record_count": 5647,
+  "quality_pass_count": 5227,
+  "included_record_count": 5227,
+  "duplicate_exclusions": 0,
+  "calibration_performed": false,
+  "harmonization_approved": false,
+  "source_csv_sha256": [
+    "e692d1e06d8ca5679ec7332a319a130d74f49a2f14753bbb0b7b559568da13f1",
+    "b8689d663e0967a805ffc80ad4958f7757952b42f17cf8891ada6220066afec9",
+    "fc2965385b06e30fbf5cb5a44bdeb5ecfac7532597da77a4b65a96e71676067c",
+    "a8862c30a2759f04855a501f08f5f874e88c2775c5a11ffa09d678efcbbd050d",
+    "5d3e7330f198dbd78e3af428c6ecc0311d39f180bb130a791549900ef73f528e",
+    "e6cdf1e87472a44b3ca749297f108e3ade8c432c0a11afe911911ab75ffc53a3",
+    "e2c73394c549984386a7b30524655784955222b50ac8f96c9590d61669bd96cb",
+    "2a764a480780aa544f6aacfb2aa8fce26ab3f6b2cec9ba4135f1d292f2515b0e"
+  ],
+  "cells": [
+    {
+      "solar_date": "2019-08-01",
+      "platform": "Terra",
+      "day_night": "D",
+      "observed_frp_sum_mw": 2904.0,
+      "observed_detection_count": 79,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-01",
+      "platform": "Terra",
+      "day_night": "N",
+      "observed_frp_sum_mw": 216.7,
+      "observed_detection_count": 17,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-01",
+      "platform": "Aqua",
+      "day_night": "D",
+      "observed_frp_sum_mw": 4918.0,
+      "observed_detection_count": 38,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-01",
+      "platform": "Aqua",
+      "day_night": "N",
+      "observed_frp_sum_mw": 205.0,
+      "observed_detection_count": 3,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-01",
+      "platform": "S-NPP",
+      "day_night": "D",
+      "observed_frp_sum_mw": 5381.13,
+      "observed_detection_count": 395,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-01",
+      "platform": "S-NPP",
+      "day_night": "N",
+      "observed_frp_sum_mw": 344.95,
+      "observed_detection_count": 46,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-02",
+      "platform": "Terra",
+      "day_night": "D",
+      "observed_frp_sum_mw": null,
+      "observed_detection_count": null,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-02",
+      "platform": "Terra",
+      "day_night": "N",
+      "observed_frp_sum_mw": null,
+      "observed_detection_count": null,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-02",
+      "platform": "Aqua",
+      "day_night": "D",
+      "observed_frp_sum_mw": 877.6999999999999,
+      "observed_detection_count": 42,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-02",
+      "platform": "Aqua",
+      "day_night": "N",
+      "observed_frp_sum_mw": 602.4,
+      "observed_detection_count": 15,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-02",
+      "platform": "S-NPP",
+      "day_night": "D",
+      "observed_frp_sum_mw": 1251.45,
+      "observed_detection_count": 109,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-02",
+      "platform": "S-NPP",
+      "day_night": "N",
+      "observed_frp_sum_mw": 1715.84,
+      "observed_detection_count": 110,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-03",
+      "platform": "Terra",
+      "day_night": "D",
+      "observed_frp_sum_mw": 139.5,
+      "observed_detection_count": 10,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-03",
+      "platform": "Terra",
+      "day_night": "N",
+      "observed_frp_sum_mw": null,
+      "observed_detection_count": null,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-03",
+      "platform": "Aqua",
+      "day_night": "D",
+      "observed_frp_sum_mw": 688.9,
+      "observed_detection_count": 9,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-03",
+      "platform": "Aqua",
+      "day_night": "N",
+      "observed_frp_sum_mw": null,
+      "observed_detection_count": null,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-03",
+      "platform": "S-NPP",
+      "day_night": "D",
+      "observed_frp_sum_mw": 484.53999999999996,
+      "observed_detection_count": 52,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-03",
+      "platform": "S-NPP",
+      "day_night": "N",
+      "observed_frp_sum_mw": 32.46,
+      "observed_detection_count": 24,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-04",
+      "platform": "Terra",
+      "day_night": "D",
+      "observed_frp_sum_mw": 69.0,
+      "observed_detection_count": 2,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-04",
+      "platform": "Terra",
+      "day_night": "N",
+      "observed_frp_sum_mw": 30.4,
+      "observed_detection_count": 1,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-04",
+      "platform": "Aqua",
+      "day_night": "D",
+      "observed_frp_sum_mw": 1096.2,
+      "observed_detection_count": 37,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-04",
+      "platform": "Aqua",
+      "day_night": "N",
+      "observed_frp_sum_mw": null,
+      "observed_detection_count": null,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-04",
+      "platform": "S-NPP",
+      "day_night": "D",
+      "observed_frp_sum_mw": 715.9499999999999,
+      "observed_detection_count": 67,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-04",
+      "platform": "S-NPP",
+      "day_night": "N",
+      "observed_frp_sum_mw": 1.44,
+      "observed_detection_count": 2,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-05",
+      "platform": "Terra",
+      "day_night": "D",
+      "observed_frp_sum_mw": 58.5,
+      "observed_detection_count": 4,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-05",
+      "platform": "Terra",
+      "day_night": "N",
+      "observed_frp_sum_mw": 111.6,
+      "observed_detection_count": 2,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-05",
+      "platform": "Aqua",
+      "day_night": "D",
+      "observed_frp_sum_mw": 801.3,
+      "observed_detection_count": 15,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-05",
+      "platform": "Aqua",
+      "day_night": "N",
+      "observed_frp_sum_mw": null,
+      "observed_detection_count": null,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-05",
+      "platform": "S-NPP",
+      "day_night": "D",
+      "observed_frp_sum_mw": 975.41,
+      "observed_detection_count": 139,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-05",
+      "platform": "S-NPP",
+      "day_night": "N",
+      "observed_frp_sum_mw": 25.37,
+      "observed_detection_count": 15,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-06",
+      "platform": "Terra",
+      "day_night": "D",
+      "observed_frp_sum_mw": 256.5,
+      "observed_detection_count": 6,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-06",
+      "platform": "Terra",
+      "day_night": "N",
+      "observed_frp_sum_mw": 43.3,
+      "observed_detection_count": 2,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-06",
+      "platform": "Aqua",
+      "day_night": "D",
+      "observed_frp_sum_mw": 1019.9,
+      "observed_detection_count": 26,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-06",
+      "platform": "Aqua",
+      "day_night": "N",
+      "observed_frp_sum_mw": 55.4,
+      "observed_detection_count": 2,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-06",
+      "platform": "S-NPP",
+      "day_night": "D",
+      "observed_frp_sum_mw": 971.22,
+      "observed_detection_count": 84,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-06",
+      "platform": "S-NPP",
+      "day_night": "N",
+      "observed_frp_sum_mw": 80.63,
+      "observed_detection_count": 9,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-07",
+      "platform": "Terra",
+      "day_night": "D",
+      "observed_frp_sum_mw": 289.1,
+      "observed_detection_count": 10,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-07",
+      "platform": "Terra",
+      "day_night": "N",
+      "observed_frp_sum_mw": 159.8,
+      "observed_detection_count": 2,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-07",
+      "platform": "Aqua",
+      "day_night": "D",
+      "observed_frp_sum_mw": 1593.3,
+      "observed_detection_count": 45,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-07",
+      "platform": "Aqua",
+      "day_night": "N",
+      "observed_frp_sum_mw": 19.8,
+      "observed_detection_count": 1,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-07",
+      "platform": "S-NPP",
+      "day_night": "D",
+      "observed_frp_sum_mw": 1676.3,
+      "observed_detection_count": 160,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-07",
+      "platform": "S-NPP",
+      "day_night": "N",
+      "observed_frp_sum_mw": 44.5,
+      "observed_detection_count": 21,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-08",
+      "platform": "Terra",
+      "day_night": "D",
+      "observed_frp_sum_mw": 477.8,
+      "observed_detection_count": 21,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-08",
+      "platform": "Terra",
+      "day_night": "N",
+      "observed_frp_sum_mw": 168.3,
+      "observed_detection_count": 11,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-08",
+      "platform": "Aqua",
+      "day_night": "D",
+      "observed_frp_sum_mw": 1278.8,
+      "observed_detection_count": 23,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-08",
+      "platform": "Aqua",
+      "day_night": "N",
+      "observed_frp_sum_mw": 290.4,
+      "observed_detection_count": 5,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-08",
+      "platform": "S-NPP",
+      "day_night": "D",
+      "observed_frp_sum_mw": 2526.13,
+      "observed_detection_count": 188,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-08",
+      "platform": "S-NPP",
+      "day_night": "N",
+      "observed_frp_sum_mw": 186.42,
+      "observed_detection_count": 71,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-09",
+      "platform": "Terra",
+      "day_night": "D",
+      "observed_frp_sum_mw": 351.9,
+      "observed_detection_count": 4,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-09",
+      "platform": "Terra",
+      "day_night": "N",
+      "observed_frp_sum_mw": 111.8,
+      "observed_detection_count": 2,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-09",
+      "platform": "Aqua",
+      "day_night": "D",
+      "observed_frp_sum_mw": 3122.7,
+      "observed_detection_count": 89,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-09",
+      "platform": "Aqua",
+      "day_night": "N",
+      "observed_frp_sum_mw": 22.6,
+      "observed_detection_count": 1,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-09",
+      "platform": "S-NPP",
+      "day_night": "D",
+      "observed_frp_sum_mw": 2307.02,
+      "observed_detection_count": 265,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-09",
+      "platform": "S-NPP",
+      "day_night": "N",
+      "observed_frp_sum_mw": 281.39,
+      "observed_detection_count": 66,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-10",
+      "platform": "Terra",
+      "day_night": "D",
+      "observed_frp_sum_mw": 747.7,
+      "observed_detection_count": 41,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-10",
+      "platform": "Terra",
+      "day_night": "N",
+      "observed_frp_sum_mw": 381.0,
+      "observed_detection_count": 16,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-10",
+      "platform": "Aqua",
+      "day_night": "D",
+      "observed_frp_sum_mw": 747.5,
+      "observed_detection_count": 7,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-10",
+      "platform": "Aqua",
+      "day_night": "N",
+      "observed_frp_sum_mw": 206.20000000000002,
+      "observed_detection_count": 4,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-10",
+      "platform": "S-NPP",
+      "day_night": "D",
+      "observed_frp_sum_mw": 1604.06,
+      "observed_detection_count": 167,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-10",
+      "platform": "S-NPP",
+      "day_night": "N",
+      "observed_frp_sum_mw": 174.41,
+      "observed_detection_count": 76,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-11",
+      "platform": "Terra",
+      "day_night": "D",
+      "observed_frp_sum_mw": 665.3,
+      "observed_detection_count": 6,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-11",
+      "platform": "Terra",
+      "day_night": "N",
+      "observed_frp_sum_mw": 104.8,
+      "observed_detection_count": 3,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-11",
+      "platform": "Aqua",
+      "day_night": "D",
+      "observed_frp_sum_mw": 7952.4,
+      "observed_detection_count": 120,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-11",
+      "platform": "Aqua",
+      "day_night": "N",
+      "observed_frp_sum_mw": 204.70000000000002,
+      "observed_detection_count": 8,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-11",
+      "platform": "S-NPP",
+      "day_night": "D",
+      "observed_frp_sum_mw": 9515.81,
+      "observed_detection_count": 367,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-11",
+      "platform": "S-NPP",
+      "day_night": "N",
+      "observed_frp_sum_mw": 372.1,
+      "observed_detection_count": 79,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-12",
+      "platform": "Terra",
+      "day_night": "D",
+      "observed_frp_sum_mw": 846.8,
+      "observed_detection_count": 39,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-12",
+      "platform": "Terra",
+      "day_night": "N",
+      "observed_frp_sum_mw": 105.1,
+      "observed_detection_count": 6,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-12",
+      "platform": "Aqua",
+      "day_night": "D",
+      "observed_frp_sum_mw": 6600.0,
+      "observed_detection_count": 37,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-12",
+      "platform": "Aqua",
+      "day_night": "N",
+      "observed_frp_sum_mw": null,
+      "observed_detection_count": null,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-12",
+      "platform": "S-NPP",
+      "day_night": "D",
+      "observed_frp_sum_mw": 5150.31,
+      "observed_detection_count": 331,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-12",
+      "platform": "S-NPP",
+      "day_night": "N",
+      "observed_frp_sum_mw": 76.09,
+      "observed_detection_count": 35,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-13",
+      "platform": "Terra",
+      "day_night": "D",
+      "observed_frp_sum_mw": 258.1,
+      "observed_detection_count": 9,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-13",
+      "platform": "Terra",
+      "day_night": "N",
+      "observed_frp_sum_mw": 284.9,
+      "observed_detection_count": 15,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-13",
+      "platform": "Aqua",
+      "day_night": "D",
+      "observed_frp_sum_mw": 1509.1,
+      "observed_detection_count": 58,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-13",
+      "platform": "Aqua",
+      "day_night": "N",
+      "observed_frp_sum_mw": 241.20000000000002,
+      "observed_detection_count": 13,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-13",
+      "platform": "S-NPP",
+      "day_night": "D",
+      "observed_frp_sum_mw": 1744.41,
+      "observed_detection_count": 188,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-13",
+      "platform": "S-NPP",
+      "day_night": "N",
+      "observed_frp_sum_mw": 397.31,
+      "observed_detection_count": 118,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-14",
+      "platform": "Terra",
+      "day_night": "D",
+      "observed_frp_sum_mw": 2069.5,
+      "observed_detection_count": 41,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-14",
+      "platform": "Terra",
+      "day_night": "N",
+      "observed_frp_sum_mw": null,
+      "observed_detection_count": null,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-14",
+      "platform": "Aqua",
+      "day_night": "D",
+      "observed_frp_sum_mw": 2205.5,
+      "observed_detection_count": 37,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-14",
+      "platform": "Aqua",
+      "day_night": "N",
+      "observed_frp_sum_mw": null,
+      "observed_detection_count": null,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-14",
+      "platform": "S-NPP",
+      "day_night": "D",
+      "observed_frp_sum_mw": 3206.25,
+      "observed_detection_count": 306,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-14",
+      "platform": "S-NPP",
+      "day_night": "N",
+      "observed_frp_sum_mw": 602.29,
+      "observed_detection_count": 186,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-15",
+      "platform": "Terra",
+      "day_night": "D",
+      "observed_frp_sum_mw": 3819.5,
+      "observed_detection_count": 73,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-15",
+      "platform": "Terra",
+      "day_night": "N",
+      "observed_frp_sum_mw": 732.1,
+      "observed_detection_count": 39,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-15",
+      "platform": "Aqua",
+      "day_night": "D",
+      "observed_frp_sum_mw": 3764.6,
+      "observed_detection_count": 68,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-15",
+      "platform": "Aqua",
+      "day_night": "N",
+      "observed_frp_sum_mw": 320.6,
+      "observed_detection_count": 10,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-15",
+      "platform": "S-NPP",
+      "day_night": "D",
+      "observed_frp_sum_mw": 4441.44,
+      "observed_detection_count": 281,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    },
+    {
+      "solar_date": "2019-08-15",
+      "platform": "S-NPP",
+      "day_night": "N",
+      "observed_frp_sum_mw": 633.79,
+      "observed_detection_count": 96,
+      "coverage_status": "unknown",
+      "coverage_fraction": null,
+      "overpass_count": null
+    }
+  ]
+}
